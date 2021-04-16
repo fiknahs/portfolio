@@ -1,0 +1,211 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+body {
+    color: black;
+}
+
+.page-content {
+    max-width: 100vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.greeting {
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.name {
+    font-weight: 900;
+    color: rgb(0, 110, 255);
+}
+
+.light {
+    font-weight: 300;
+}
+
+.caps {
+    font-size: 1.2em;
+}
+
+.caps p {
+    margin: 1em 0.5em 0 0;
+}
+
+.caps p:first-child {
+    margin-top: 1em;
+}
+
+.caps p:last-child {
+    margin-bottom: 2em;
+}
+
+#tech-skills {
+    justify-content: space-evenly;
+    margin: 0 ;
+}
+
+#tech-skills, h2 {
+    margin-bottom: 10px;
+}
+
+.skill-icon {
+    color:rgb(0, 110, 255);
+    font-size: 3rem;
+    margin-right: 20px;
+    margin-bottom: 2em;
+} 
+
+h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.links {
+    justify-content: space-evenly;
+    margin: 0 !important;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.bold {
+    font-weight: bolder;
+    color: black;
+    font-size: larger;
+}
+
+.icons {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: grey;
+    margin-right: 20px;
+}
+
+.fa-twitter:hover {color: rgb(95, 141, 201)}
+.fa-github-alt:hover {color:rgb(255, 123, 0)}
+.fa-linkedin-in:hover {color:rgb(0, 110, 255)}
+.fa-file:hover {color:rgb(107, 76, 248)}
+
+
+
+@media screen and (max-width: 768px) {
+    .page-content {
+        height: 90vh;
+        width: 100vw;
+    }
+
+   .greeting{
+       font-size: 30px;
+       margin: 1em 0.5em 0.5em 0.5em;
+   }
+
+   h2 {
+       font-size: 20px;
+       margin: 1em 0.5em 1.5em 0.8em;
+   }
+
+   .caps {
+       font-size: 1em;
+   }
+
+   .caps p {
+        margin: 1em 0.5em 0 1em;
+    }
+
+    #tech-skills{
+        margin-top: 3em;
+    }
+    .skills {
+        margin-left: 1em;
+    }
+
+    .skill-icon {
+        font-size: 2rem;
+    }
+
+    .links, h3, .icons {
+        margin-left: 1em;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .icons {
+        font-size: 1.2rem;
+        cursor: pointer;
+        color: grey;
+        margin-right: 20px;
+    }
+
+} 
+
+
+
+
+
